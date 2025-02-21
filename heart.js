@@ -2,6 +2,7 @@ const fill = document.getElementById("heart-fill")
 const heart_container = document.getElementById("heart-container")
 const letter_template = document.getElementById("letter-template").content.cloneNode(true)
 const container = document.getElementById("container")
+const title = document.getElementById("title")
 const spotify = document.getElementById("spotify-bootleg").content.cloneNode(true)
 let height = 0
 const heart_fill = setInterval(() => {
@@ -16,6 +17,7 @@ function sus() {
 	}
 	heart_container.ontransitionend = () => {
 		heart_container.remove()
+		title.remove()
 		spotify_bootleg()
 	}
 }
