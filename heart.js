@@ -20,7 +20,6 @@ function sus() {
 	}
 }
 function spotify_bootleg() {
-	console.log("A")
 	let current = spotify.firstElementChild
 	if (current !== null) {
 		let appended_current = container.appendChild(current)
