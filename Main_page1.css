@@ -1,3 +1,13 @@
+@font-face {
+    font-family: sus;
+    src: url(HLT\ Gioviale.ttf);
+}
+
+@font-face {
+    font-family: spotify;
+    src: url(SpotifyMixUI\ Regular.ttf);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -97,10 +107,29 @@ g:hover .image-mapper-shape {
     height: 72%;
     overflow-y: auto;
     transform: translateY(2%);
+    font-family: sus;
+    font-size: xx-large;
+}
+
+.spotify {
+    animation: 2s fade-in-and-out forwards;
+    font-family: spotify;
 }
 
 @keyframes fade-in {
     to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-and-out {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
         opacity: 1;
     }
 }

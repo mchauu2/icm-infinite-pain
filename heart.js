@@ -1,7 +1,8 @@
 const fill = document.getElementById("heart-fill")
 const heart_container = document.getElementById("heart-container")
-const letter_template = document.getElementById("letter-template")
+const letter_template = document.getElementById("letter-template").content.cloneNode(true)
 const container = document.getElementById("container")
+const spotify = document.getElementById("spotify-bootleg").content.cloneNode(true)
 let height = 0
 const heart_fill = setInterval(() => {
 	height = Math.max(0, height - 0.1)
@@ -15,6 +16,19 @@ function sus() {
 	}
 	heart_container.ontransitionend = () => {
 		heart_container.remove()
-		container.appendChild(letter_template.content.cloneNode(true))
+		spotify_bootleg()
+	}
+}
+function spotify_bootleg() {
+	console.log("A")
+	let current = spotify.firstElementChild
+	if (current !== null) {
+		let appended_current = container.appendChild(current)
+		appended_current.onanimationend = () => {
+			appended_current.remove()
+			spotify_bootleg()
+		}
+	} else {
+		container.appendChild(letter_template)
 	}
 }
