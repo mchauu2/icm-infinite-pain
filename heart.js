@@ -14,6 +14,7 @@ function sus() {
 	if (height === 100) {
 		clearInterval(heart_fill)
 		heart_container.classList.add("fade")
+		title.classList.add("fade")
 	}
 	heart_container.ontransitionend = () => {
 		heart_container.remove()

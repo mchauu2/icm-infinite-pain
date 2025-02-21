@@ -48,6 +48,7 @@ g:hover .image-mapper-shape {
 #title {
     font-family: sus;
     font-size: xx-large;
+    transition: opacity 1s;
 }
 
 #heart-container {
@@ -55,7 +56,6 @@ g:hover .image-mapper-shape {
     animation-duration: 2s;
     animation-iteration-count: infinite;
     transition: opacity 1s;
-    opacity: 1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -64,7 +64,7 @@ g:hover .image-mapper-shape {
     height: 50vmin;
 }
 
-#heart-container.fade {
+.fade {
     opacity: 0;
 }
 
@@ -119,12 +119,13 @@ a {
     overflow-y: auto;
     transform: translateY(2%);
     font-family: sus;
-    font-size: xx-large;
+    font-size: 3em;
 }
 
 .spotify {
-    animation: 2s fade-in-and-out forwards;
+    animation: 5s fade-in-and-out forwards;
     font-family: spotify;
+    font-size: xx-large;
 }
 
 @keyframes fade-in {
