@@ -127,14 +127,14 @@ a {
     font-size: 3rem;
 }
 
-@media only screen and (max-width: 950px) {
-    #letter {
-        font-size: 5rem
-    }
-}
 @media only screen and (min-width: 950px) {
     #letter {
-        font-size: 2.5rem
+        font-size: 3.5em;
+    }
+}
+@media only screen and (min-width: 951px) {
+    #letter {
+        font-size: 2.5rem;
     }
 }
 
