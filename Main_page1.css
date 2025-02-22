@@ -47,7 +47,7 @@ g:hover .image-mapper-shape {
 
 #title {
     font-family: sus;
-    font-size: 3rem;
+    font-size: 5rem;
     transition: opacity 1s;
 }
 
@@ -119,13 +119,13 @@ a {
     overflow-y: auto;
     transform: translateY(2%);
     font-family: sus;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .spotify {
     animation: 5s fade-in-and-out forwards;
     font-family: spotify;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 @keyframes fade-in {
