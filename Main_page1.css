@@ -128,6 +128,12 @@ a {
     font-size: 3rem;
 }
 
+@media screen and (max-width: 950px) {
+    #letter {
+        font-size: 5rem
+    }
+}
+
 @keyframes fade-in {
     to {
         opacity: 1;
