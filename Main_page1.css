@@ -1,6 +1,6 @@
 @font-face {
     font-family: sus;
-    src: url(January\ Night.ttf);
+    src: url(HLT\ Gioviale.ttf);
 }
 
 @font-face {
@@ -47,7 +47,7 @@ g:hover .image-mapper-shape {
 
 #title {
     font-family: sus;
-    font-size: 3rem;
+    font-size: 2.5rem;
     transition: opacity 1s;
 }
 
@@ -119,6 +119,7 @@ a {
     overflow-y: auto;
     transform: translateY(2%);
     font-family: sus;
+    color: hotpink;
 }
 
 .spotify {
