@@ -6,6 +6,7 @@
 @font-face {
     font-family: spotify;
     src: url(SpotifyMixUI\ Regular.ttf);
+    font-display: fallback;
 }
 
 * {
