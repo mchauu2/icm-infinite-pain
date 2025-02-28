@@ -121,7 +121,7 @@ a {
     transform: translateY(2%);
     font-family: sus;
     color: #FF1AAC;
-    font-size: 1.5rem;
+    font-size: 2.3rem;
 }
 
 .spotify {
@@ -130,7 +130,6 @@ a {
     font-size: 2.75rem;
     text-align: center;
     text-wrap: balance;
-    width: 80%;
 }
 
 @keyframes fade-in {
