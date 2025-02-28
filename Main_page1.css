@@ -121,13 +121,15 @@ a {
     transform: translateY(2%);
     font-family: sus;
     color: #FF1AAC;
-    font-size: 2.3rem;
+    font-size: 1.5rem;
 }
 
 .spotify {
     animation: 5s fade-in-and-out forwards;
     font-family: sus;
     font-size: 2.75rem;
+    text-align: center;
+    width: 80%;
 }
 
 @keyframes fade-in {
