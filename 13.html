@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        ICM 8/3
+    </title>
+    <link rel="stylesheet" href="13.css">
+    <link rel="preload" href="Paper_blank.png" as="image" crossorigin>
+    <link rel="preload" href="HLT Gioviale.ttf" as="font" crossorigin>
+    <link rel="preload" href="SpotifyMixUI Regular.ttf" as="font" crossorigin>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1" />
+</head>
+
+<body>
+    <div id="container">
+        <p id="title">Bấm vào trái tim để mở thiệp!</p>
+        <div id="heart-container">
+            <div id="fill-container">
+                <img id="heart-fill" src="Heart2_fill.png">
+            </div>
+            <svg style="width:100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 1121 994" id="heart">
+                <image xlink:href="Heart2.png" style="width: 1121px;"></image>
+                <a xlink:href="#" onclick="sus()">
+                    <g>
+                        <polygon class="image-mapper-shape" data-index="1"
+                            points="566.355 113.91 629.165 51.0997 688.782 24.4853 745.204 7.45204 799.498 1.06458 853.791 4.25831 893.18 15.9687 941.086 23.4207 984.734 34.0665 1023.06 54.2934 1047.54 101.135 1065.64 134.137 1084.8 171.397 1094.39 205.463 1107.16 256.563 1113.55 317.244 1116.74 350.246 1116.74 410.927 1116.74 464.156 1094.39 526.966 1078.42 558.903 1061.38 595.099 1044.35 629.165 1021.99 668.555 998.574 698.363 947.474 743.075 936.828 772.883 912.343 805.885 888.922 822.918 848.468 853.791 811.208 893.18 769.689 916.601 729.236 937.893 685.588 961.313 633.424 979.411 584.453 990.057 553.58 990.057 492.899 969.83 439.67 954.926 391.764 932.57 358.763 904.891 327.89 899.568 291.694 875.083 267.209 850.597 242.724 834.629 213.98 816.531 188.43 793.11 166.074 768.625 141.589 744.14 112.845 712.202 99.0057 689.846 76.6496 658.973 60.6809 628.101 37.2602 575.936 25.5499 530.16 15.9687 499.287 4.25831 449.252 5.32289 423.702 -1.06458 381.119 4.25831 354.504 5.32289 311.921 11.7104 260.821 20.227 212.915 34.0665 169.268 47.906 126.685 72.3913 86.2308 112.845 58.5518 159.687 30.8727 192.689 26.6144 226.755 18.0978 260.821 4.25831 300.211 4.25831 352.375 5.32289 393.894 10.6458 440.735 31.9373 491.835 55.358 533.353 86.2308">
+                        </polygon>
+                    </g>
+                </a>
+            </svg>
+        </div>
+    </div>
+    <script src="heart.js" defer></script>
+    <template id="letter-template">
+        <div id="letter-container">
+            <img id="paper" src="Paper_blank.png">
+            <p id="letter">Anh đừng quá lo lắng về những điều phía trước vì sẽ luôn có em ở đằng sau. 
+                Em sẽ luôn ở bên cạnh anh và ủng hộ tất cả những điều anh làm trong cuộc sống. 
+                Em không muốn mình là ưu tiên của anh, em chỉ muốn được là người ở bên cạnh và đồng hành cùng anh trong suốt chặng hành trình này. 
+                Em iu anh 💗🐿️</p>
+        </div>
+    </template>
+    <template id="spotify-bootleg">
+        <p class="spotify">"- Chúng mình đã ở bên nhau hơn 2 năm
+            - Kỉ niệm đáng nhớ nhất là lần đầu chúng mình gặp nhau sau 4 tháng chia tay
+            - Trong tương lai mình muốn chúng mình sẽ bên nhau thật lâu dài 💗" </p>
+    </template>
+</body>
+
+</html>
